@@ -1,0 +1,33 @@
+{
+  "name": "array-move-with-pivot",
+  "version": "1.0.0",
+  "description": "This package moves items (objects) in circular format and around a selected property which acts a pivot.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --watchAll",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "array",
+    "array-move",
+    "object",
+    "pivot",
+    "object"
+  ],
+  "author": "ScribbleTons",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.4",
+    "@types/lodash": "^4.14.182",
+    "babel-jest": "^28.1.2",
+    "jest": "^28.1.2",
+    "lodash": "^4.17.21",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}

@@ -8,6 +8,18 @@ if array [1, 2, 3, 4]
 After dragging value 3 to position of value 1 
 We have [3, 1, 2, 4] 
 
+
+### installation
+
+```
+npm i --save array-move-with-pivot
+
+or 
+
+yarn add array-move-with-pivot
+```
+
+
 ## Use Case
 
 ```
@@ -60,4 +72,4 @@ console.log(result) //  [{ id: 30, name: "Chidimna", position: 1}, { id: 11, nam
 
 ```
 #### Note
-> It is not a named export, you can import it as anything e.g arrayMove, moveArrayItems, etc.
+> It is not a named export, you can import with your chosen name e.g arrayMove, moveArrayItems, etc.

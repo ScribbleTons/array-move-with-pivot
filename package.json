@@ -1,9 +1,10 @@
 {
   "name": "array-move-with-pivot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package moves items (objects) in circular format and around a selected property which acts a pivot.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/ScribbleTons/array-move-with-pivot",
   "scripts": {
     "test": "jest --watchAll",
     "build": "tsc",

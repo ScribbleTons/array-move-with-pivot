@@ -62,15 +62,12 @@ const shiftRight = <T>(
   return subData;
 };
 
-
-
-
-const moveArrayItems = <T>(
+export default function <T>(
   array: Array<T>,
   from: number,
   to: number,
   pivotKey: keyof T
-): Array<T> => {
+): Array<T> {
   if (from === to) return array;
 
   if (from > to) {
@@ -82,6 +79,4 @@ const moveArrayItems = <T>(
     array.splice(from, to - from + 1, ...arr);
     return array;
   }
-};
-
-export default moveArrayItems;
+}

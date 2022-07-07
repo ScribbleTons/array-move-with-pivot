@@ -14,7 +14,10 @@
     "array-move",
     "object",
     "pivot",
-    "object"
+    "object",
+    "drag-sort",
+    "drag-drop",
+    "table"
   ],
   "author": "ScribbleTons",
   "license": "MIT",
